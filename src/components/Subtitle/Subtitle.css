@@ -1,0 +1,8 @@
+.sub-title h3{
+    color: #bcbdbc;
+    text-align: start;
+    margin: 2em 2em;
+}
+.sub-title.dark{
+    color: #FFF;
+}
