@@ -1,5 +1,6 @@
 
 import './App.css';
+import ThemeProvider from './components/Theme/Dark';
 import Title from './components/Title/Title';
 import Face from './images/icon-facebook.svg'
 import YouTube from './images/icon-youtube.svg'
@@ -181,6 +182,8 @@ function App() {
           colorUp={cardBottom.color}
           down={cardBottom.down}
         />)}
+
+        <ThemeProvider/>
     </div>
   );
 }
