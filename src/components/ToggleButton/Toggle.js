@@ -1,5 +1,5 @@
 import React from 'react'
-import { ThemeContext } from '../../components/Theme/Dark'
+import { ThemeContext } from '../Theme/Dark'
 import './toggle.css'
 function Toggle() {
     
